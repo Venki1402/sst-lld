@@ -20,7 +20,7 @@ public class Main {
         // final List<Integer> arr = new ArrayList<>();
         // arr.add(10);
 
-        ImmutableInstance immutableInstance = ImmutableInstance.ImmutableInstanceBuilder.setName("Luffy")
+        ImmutableInstance immutableInstance = new ImmutableInstance.ImmutableInstanceBuilder().setName("Luffy")
                 .setGame("One Piece").build();
 
     }
